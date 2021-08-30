@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="EN-en">
+<head>
+    <link rel="stylesheet" href="lib/style.css"/>
+    <title>PingPongJS</title>
+</head>
+
+<body>
+<div id="background"></div>
+<audio id="ingame-1" src="lib/sound/ingame_1.wav"></audio>
+<audio id="ingame-2" src="lib/sound/ingame_2.wav"></audio>
+<audio id="player-hit" src="lib/sound/player_hit.wav"></audio>
+<audio id="enemy-hit" src="lib/sound/enemy_hit.wav"></audio>
+<audio id="ball-explosion" src="lib/sound/ball_explosion.wav"></audio>
+<div class="title"><b>PingPongJS</b>
+    <br>
+    A and D to move left and right respectively
+    <br>
+    Space or Enter to restart
+    <br>
+    Esc to abort the current game
+</div>
+<div class="divisor"></div>
+<div id="player" class="platform">
+    <span class="player-pointer">You -></span>
+</div>
+<div id="enemy" class="platform"></div>
+<div class="frame"></div>
+<div class="info-panel"></div>
+<div class="interface-button"></div>
+<div class="score" hidden></div>
+<script src="lib/script.js"></script>
+</body>
+</html>

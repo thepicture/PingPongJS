@@ -1,0 +1,78 @@
+.game {
+  position: absolute;
+  background-color: black;
+  z-index: -1;
+  outline: 1px solid darkred;
+  outline-offset: -1px;
+}
+
+.platform {
+  position: absolute;
+  background-color: white;
+}
+
+.divisor {
+  position: absolute;
+}
+
+.frame {
+  position: absolute;
+  outline: 2px solid red;
+  outline-offset: -2px;
+  z-index: 1;
+}
+
+.ball {
+  position: absolute;
+  background-color: white;
+}
+
+.info-panel {
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+}
+
+.interface-button {
+  z-index: 2;
+  position: absolute;
+  border: 2px solid red;
+  font-size: xx-large;
+  cursor: pointer;
+  color: red;
+}
+
+.interface-button:focus {
+  background-color: red;
+}
+
+.interface-button:hover {
+  font-weight: bold;
+}
+
+.score {
+  position: absolute;
+  font-size: xx-large;
+  color: white;
+  z-index: 2;
+}
+
+.title {
+  position: absolute;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.player-pointer {
+  position: absolute;
+  color: white;
+  font-size: large;
+  z-index: 16;
+}
+
+#background {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
