@@ -75,4 +75,18 @@
   position: absolute;
   left: 0;
   right: 0;
+  animation-name: moving-bg;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes moving-bg {
+  from {
+    margin-top: 0px;
+  }
+
+  to {
+    margin-top: 60px;
+  }
 }
