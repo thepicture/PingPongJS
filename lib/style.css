@@ -1,3 +1,18 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+body {
+  position: relative;
+  width: 450px;
+  height: 600px;
+}
+
 .game {
   position: absolute;
   background-color: black;
@@ -20,6 +35,15 @@
   outline: 2px solid red;
   outline-offset: -2px;
   z-index: 1;
+}
+
+.frame::before {
+  position: absolute;
+  margin-top: -100px;
+  width: inherit;
+  height: 100px;
+  background: black;
+  content: "";
 }
 
 .ball {
